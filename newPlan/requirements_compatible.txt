@@ -1,0 +1,37 @@
+# 修复版本冲突的依赖文件
+# 核心深度学习框架
+torch>=2.0.0,<2.3.0
+torchvision>=0.17.1,<0.18.0
+
+# 计算机视觉和图像处理
+opencv-python>=4.8.0,<4.11.0
+pillow>=9.0.0,<11.0.0
+
+# PyTorch Lightning
+lightning>=2.0.0,<2.4.0
+
+# 目标检测 - YOLOv11
+ultralytics>=8.0.0
+
+# 多目标追踪 - BoxMOT (使用可用的最新版本)
+boxmot>=10.0.77
+
+# 数据处理和压缩
+numpy>=1.21.0,<2.0.0
+dahuffman>=0.4.1
+
+# 模型和实验管理
+efficientnet-pytorch>=0.7.1
+wandb>=0.15.0
+torchsummary>=1.5.1
+
+# 进度条和工具
+tqdm>=4.64.0
+
+# 可视化和监控工具 (可选)
+seaborn>=0.12.0
+matplotlib>=3.5.0
+
+# 基础工具
+pyyaml>=5.4.0
+scipy>=1.7.0

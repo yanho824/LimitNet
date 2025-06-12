@@ -1,0 +1,68 @@
+{
+  "os": "Linux-5.4.0-215-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.16",
+  "startedAt": "2025-06-11T14:04:36.180329Z",
+  "args": [
+    "--model",
+    "cifar",
+    "--data_root",
+    "data",
+    "--resume_from",
+    "pretrained_detection_model.ckpt",
+    "--batch_size",
+    "8",
+    "--learning_rate",
+    "0.001",
+    "--epochs_phase1",
+    "50",
+    "--epochs_phase2",
+    "30",
+    "--epochs_phase3",
+    "20",
+    "--yolo_model",
+    "yolo11n.pt",
+    "--checkpoint_dir",
+    "./checkpoints_detection",
+    "--device",
+    "cuda",
+    "--wandb_project",
+    "LimitNet_Detection"
+  ],
+  "program": "train_with_detection.py",
+  "codePath": "newPlan/train_with_detection.py",
+  "git": {
+    "remote": "git@github.com:yanho824/LimitNet.git",
+    "commit": "5f01f94718551b60e4a5d9184624e1c0de189bf7"
+  },
+  "root": "./checkpoints_detection",
+  "host": "bcf949287a64",
+  "executable": "/data/LimitNet/newPlan/myenv/bin/python",
+  "codePathLocal": "train_with_detection.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "21474836480",
+      "used": "6180671488"
+    }
+  },
+  "memory": {
+    "total": "811516973056"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada",
+      "uuid": "GPU-e492b422-5869-b8f0-ce7c-a5cfe0f2e9f3"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

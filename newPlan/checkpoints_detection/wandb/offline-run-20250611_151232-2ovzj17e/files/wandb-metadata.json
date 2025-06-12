@@ -1,0 +1,70 @@
+{
+    "os": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.9",
+    "heartbeatAt": "2025-06-11T07:12:32.589516",
+    "startedAt": "2025-06-11T07:12:32.347803",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--resume_from",
+        "./pretrained_detection_model.ckpt",
+        "--model",
+        "cifar",
+        "--data_root",
+        ".\\data\\",
+        "--epochs_phase1",
+        "15",
+        "--epochs_phase2",
+        "25",
+        "--epochs_phase3",
+        "15",
+        "--batch_size",
+        "32",
+        "--learning_rate",
+        "0.001"
+    ],
+    "state": "running",
+    "program": "D:\\study\\python_workspace\\LimitNet\\newPlan\\train_with_detection.py",
+    "codePathLocal": "train_with_detection.py",
+    "codePath": "newPlan\\train_with_detection.py",
+    "git": {
+        "remote": "https://github.com/yanho824/LimitNet.git",
+        "commit": "5f01f94718551b60e4a5d9184624e1c0de189bf7"
+    },
+    "email": "'1921517034@qq.com'",
+    "root": "D:/study/python_workspace/LimitNet",
+    "host": "LAPTOP-VU5T5LDM",
+    "username": "syh",
+    "executable": "D:\\study\\python_workspace\\LimitNet\\myenv\\Scripts\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2600.0,
+        "min": 0.0,
+        "max": 2600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 2600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 651.6445274353027,
+            "used": 558.101993560791
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.73052215576172
+    }
+}

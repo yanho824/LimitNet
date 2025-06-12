@@ -1,0 +1,33 @@
+# 核心深度学习框架
+torch>=2.0.0,<2.4.0
+torchvision>=0.15.0,<0.19.0
+
+# 计算机视觉和图像处理
+opencv-python>=4.8.0,<4.11.0
+pillow>=9.0.0,<11.0.0
+
+# PyTorch Lightning
+lightning>=2.0.0,<2.4.0
+
+# 目标检测 - YOLOv11
+ultralytics>=8.0.0,<9.0.0
+
+# 多目标追踪 - BoxMOT
+boxmot>=10.0.0
+
+# 可视化和监控工具
+supervision>=0.16.0
+seaborn>=0.12.0,<0.14.0
+matplotlib>=3.5.0,<4.0.0
+
+# 数据处理和压缩
+numpy>=1.21.0,<2.0.0
+dahuffman>=0.4.1,<0.5.0
+
+# 模型和实验管理
+efficientnet-pytorch>=0.7.1,<0.8.0
+wandb>=0.15.0,<0.18.0
+torchsummary>=1.5.1,<2.0.0
+
+# 进度条和工具
+tqdm>=4.64.0,<5.0.0 

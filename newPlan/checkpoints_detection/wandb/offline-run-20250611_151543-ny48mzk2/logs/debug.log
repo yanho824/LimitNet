@@ -1,0 +1,30 @@
+2025-06-11 15:15:43,379 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Current SDK version is 0.17.2
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Configure stats pid to 65168
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Loading settings from C:\Users\syh\.config\wandb\settings
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Loading settings from D:\study\python_workspace\LimitNet\newPlan\wandb\settings
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'newPlan\\train_with_detection.py', 'program_abspath': 'D:\\study\\python_workspace\\LimitNet\\newPlan\\train_with_detection.py', 'program': 'D:\\study\\python_workspace\\LimitNet\\newPlan\\train_with_detection.py'}
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-06-11 15:15:43,381 INFO    MainThread:65168 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2025-06-11 15:15:43,382 INFO    MainThread:65168 [wandb_init.py:_log_setup():520] Logging user logs to ./checkpoints_detection\wandb\offline-run-20250611_151543-ny48mzk2\logs\debug.log
+2025-06-11 15:15:43,382 INFO    MainThread:65168 [wandb_init.py:_log_setup():521] Logging internal logs to ./checkpoints_detection\wandb\offline-run-20250611_151543-ny48mzk2\logs\debug-internal.log
+2025-06-11 15:15:43,382 INFO    MainThread:65168 [wandb_init.py:init():560] calling init triggers
+2025-06-11 15:15:43,382 INFO    MainThread:65168 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2025-06-11 15:15:43,382 INFO    MainThread:65168 [wandb_init.py:init():610] starting backend
+2025-06-11 15:15:43,382 INFO    MainThread:65168 [wandb_init.py:init():614] setting up manager
+2025-06-11 15:15:43,385 INFO    MainThread:65168 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-06-11 15:15:43,387 INFO    MainThread:65168 [wandb_init.py:init():622] backend started and connected
+2025-06-11 15:15:43,395 INFO    MainThread:65168 [wandb_init.py:init():711] updated telemetry
+2025-06-11 15:15:43,451 INFO    MainThread:65168 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2025-06-11 15:15:43,468 INFO    MainThread:65168 [wandb_init.py:init():795] starting run threads in backend
+2025-06-11 15:15:43,806 INFO    MainThread:65168 [wandb_run.py:_console_start():2380] atexit reg
+2025-06-11 15:15:43,806 INFO    MainThread:65168 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-06-11 15:15:43,807 INFO    MainThread:65168 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-06-11 15:15:43,807 INFO    MainThread:65168 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-06-11 15:15:43,808 INFO    MainThread:65168 [wandb_init.py:init():838] run started, returning control to user process
+2025-06-11 15:15:43,851 INFO    MainThread:65168 [wandb_run.py:_config_callback():1382] config_cb None None {'model_type': 'cifar', 'detector_config': {'model_path': 'yolo11n.pt', 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'device': 'cuda'}}
+2025-06-11 15:26:08,157 INFO    MainThread:65168 [wandb_run.py:_config_callback():1382] config_cb None None {'model_type': 'cifar', 'detector_config': {'model_path': 'yolo11n.pt', 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'device': 'cuda'}}
+2025-06-11 15:26:13,269 INFO    MainThread:65168 [wandb_run.py:_config_callback():1382] config_cb None None {'model_type': 'cifar', 'detector_config': {'model_path': 'yolo11n.pt', 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'device': 'cuda'}}
+2025-06-11 15:26:19,546 WARNING MsgRouterThr:65168 [router.py:message_loop():77] message_loop has been closed
